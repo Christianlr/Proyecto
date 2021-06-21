@@ -1,1 +1,15 @@
-{"argv": ["/opt/anaconda3/bin/python", "-m", "spylon_kernel", "-f", "{connection_file}"], "display_name": "spylon-kernel", "env": {"PYTHONUNBUFFERED": "1", "SPARK_SUBMIT_OPTS": "-Dscala.usejavacp=true"}, "language": "scala", "name": "spylon-kernel"}
+{
+"argv": [
+"/opt/anaconda3/bin/python",
+ "-m",
+ "spylon_kernel",
+ "-f",
+ "{connection_file}"],
+ "display_name": "spylon-kernel",
+ "env":
+      {"PYTHONUNBUFFERED": "1",
+       "SPARK_SUBMIT_OPTS":
+                           "-Dscala.usejavacp=true"
+       }, "language": "scala",
+ "name": "spylon-kernel"
+}
