@@ -1,3 +1,5 @@
+FROM debian:9
+
 # Instalacion de las herramientas basicas
 RUN \
   apt-get update && apt-get install -y \
